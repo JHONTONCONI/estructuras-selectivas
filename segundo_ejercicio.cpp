@@ -3,13 +3,15 @@
 using namespace std;
 
 int main (){
-	int p;
-	cout<<INGRESE EL PROMEDIO DE NOTAS<<endl;
-	cin>>p;
-	if(p>=70){
-		cout<<APROBADO;
+	int promedio;
+	cout<<"\n\n     ****************************"<<endl;
+	cout<<"     INGRESE EL PROMEDIO DE NOTAS"<<endl;
+	cout<<"     ****************************"<<endl;
+	cin>>promedio;
+	if(promedio>=70){
+		cout<<"APROBADO";
 	}else{
-		cout<<REPROBADO;
+		cout<<"REPROBADO";
 	}
 	return 0;
 }
