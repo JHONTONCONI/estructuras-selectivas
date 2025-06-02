@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 	int cantidad, preciollanta, pagototal;
-	cout<<nn *****************************************<<endl;
-	cout<< INGRESE LA CANTIDAD DE LLANTAS QUE COMPRO<<endl;
-	cout<< *****************************************<<endl;
+	cout<<"\n\n     *****************************************"<<endl;
+	cout<<"     INGRESE LA CANTIDAD DE LLANTAS QUE COMPRO"<<endl;
+	cout<<"     *****************************************"<<endl;
 	cin>>cantidad;
 	if (cantidad<5){
 		preciollanta=300;
@@ -20,6 +20,16 @@ int main(){
 		    pagototal=cantidad*preciollanta;
 		}
 	}
-	cout<<preciollanta<< :PRECIO DE CADA LLANTA<<endl;
-	cout<<pagototal<< :PAGO TOTAL A REALIZAR<<endl;
+	cout<<"\n\n     *********************"<<endl;
+	cout<<"     PRECIO DE CADA LLANTA"<<endl;
+	cout<<"     *********************"<<endl;
+	cout<<endl;
+	cout<<preciollanta;
+	cout<<endl;
+	cout<<"\n\n     *********************"<<endl;
+	cout<<"     PAGO TOTAL A REALIZAR"<<endl;
+	cout<<"     *******************"<<endl;
+	cout<<endl;
+	cout<<pagototal;
+	cout<<endl;
 }
