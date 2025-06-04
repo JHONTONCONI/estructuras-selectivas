@@ -28,5 +28,6 @@ int main(){
 	cout<<"\n\n     ***************************"<<endl;
 	cout<<"     EL PAGO A REALIZARSE ES: "<<pagofinal<<endl;
 	cout<<"     **************************"<<endl;
+	cout<<"     PROGRAMA FINZALIZADO, GRACIAS: "<<endl;
 	return 0;
 }
